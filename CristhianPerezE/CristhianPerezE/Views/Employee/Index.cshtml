@@ -3,10 +3,26 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Empleados</h2>
+<div>
+    <div class="form-group">
+        <label for="EmployeeId">Identificador de Empleado:</label>
+        <input type="text" class="form-control" id="EmployeeId">
+    </div>
+    <button type="button" onclick="getEmployees()" class="btn btn-primary">Obtener Empleados</button>
+    <button type="button" onclick="getEmployeeById()" class="btn btn-primary">Buscar Empleado</button>
+</div>
+<div>
+    <div class="form-group">
+        <label id="EmployeeInfo"></label>
+        
+    </div>
+</div>
 
+
+<script type="text/javascript" src="~/Scripts/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="~/Scripts/App/Employee.js"></script>
 
 <script type="text/javascript">
-    getEmployees();
+    
 </script>

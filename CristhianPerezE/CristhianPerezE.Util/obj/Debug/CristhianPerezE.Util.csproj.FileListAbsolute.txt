@@ -7,3 +7,11 @@ D:\01 Cristhian\CristhianPerezE\CristhianPerezE.Util\obj\Debug\CristhianPerezE.U
 D:\01 Cristhian\CristhianPerezE\CristhianPerezE.Util\obj\Debug\CristhianPerezE.Util.csproj.CopyComplete
 D:\01 Cristhian\CristhianPerezE\CristhianPerezE.Util\obj\Debug\CristhianPerezE.Util.dll
 D:\01 Cristhian\CristhianPerezE\CristhianPerezE.Util\obj\Debug\CristhianPerezE.Util.pdb
+D:\01 Cristhian\TechnicalTestThales\CristhianPerezE\CristhianPerezE.Util\bin\Debug\CristhianPerezE.Util.dll
+D:\01 Cristhian\TechnicalTestThales\CristhianPerezE\CristhianPerezE.Util\bin\Debug\CristhianPerezE.Util.pdb
+D:\01 Cristhian\TechnicalTestThales\CristhianPerezE\CristhianPerezE.Util\bin\Debug\Newtonsoft.Json.dll
+D:\01 Cristhian\TechnicalTestThales\CristhianPerezE\CristhianPerezE.Util\bin\Debug\Newtonsoft.Json.xml
+D:\01 Cristhian\TechnicalTestThales\CristhianPerezE\CristhianPerezE.Util\obj\Debug\CristhianPerezE.Util.csproj.CoreCompileInputs.cache
+D:\01 Cristhian\TechnicalTestThales\CristhianPerezE\CristhianPerezE.Util\obj\Debug\CristhianPerezE.Util.csproj.CopyComplete
+D:\01 Cristhian\TechnicalTestThales\CristhianPerezE\CristhianPerezE.Util\obj\Debug\CristhianPerezE.Util.dll
+D:\01 Cristhian\TechnicalTestThales\CristhianPerezE\CristhianPerezE.Util\obj\Debug\CristhianPerezE.Util.pdb

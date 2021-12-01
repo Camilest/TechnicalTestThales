@@ -24,8 +24,30 @@ namespace CristhianPerezE.Controllers
         /// <returns></returns>
         public JsonResult GetEmployees()
         {
-            var test = this.Employee.GetEmployeesAsync().Result;
-            return Json("test", JsonRequestBehavior.AllowGet);
+            List<CristhianPerezE.Models.data> dataEmpleyees = null;
+            var employeesResult = this.Employee.GetEmployees();
+            if (employeesResult.Any())
+            {
+                return Json(new { EmployeesResult = employeesResult }, JsonRequestBehavior.AllowGet);
+            }
+            return Json(dataEmpleyees, JsonRequestBehavior.AllowGet);
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public JsonResult GetEmployeById(int id)
+        {
+            List<CristhianPerezE.Models.data> dataEmpleyees = null;
+            var employeeResult = this.Employee.GetEmployeById(id);
+            if (employeeResult != null)
+            {
+                return Json(employeeResult, JsonRequestBehavior.AllowGet);
+            }
+            return Json(dataEmpleyees, JsonRequestBehavior.AllowGet);
+        }
+
     }
 }
