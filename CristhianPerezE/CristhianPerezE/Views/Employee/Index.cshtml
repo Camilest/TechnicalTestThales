@@ -12,11 +12,25 @@
     <button type="button" onclick="getEmployees()" class="btn btn-primary">Obtener Empleados</button>
     <button type="button" onclick="getEmployeeById()" class="btn btn-primary">Buscar Empleado</button>
 </div>
+<br />
 <div>
-    <div class="form-group">
-        <ol>
-            
-        </ol>        
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th class="text-center">Identificador</th>
+                <th class="text-center">Nombre Empleado</th>
+                <th class="text-center">Edad</th>
+                <th class="text-center">Salario Mes</th>
+                <th class="text-center">Salario Año</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+
+    <div id="error">
+        
     </div>
 </div>
 
@@ -25,5 +39,5 @@
 <script type="text/javascript" src="~/Scripts/App/Employee.js"></script>
 
 <script type="text/javascript">
-    
+
 </script>
